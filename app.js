@@ -45,9 +45,9 @@ async function checkWeather(city) {
             weather_Img.src = "snow.png";
             break;
     }
-    console.log(weather_data);
 }
 
 searchBtn.addEventListener('click', () => {
     checkWeather(inputBox.value);
 })
+
